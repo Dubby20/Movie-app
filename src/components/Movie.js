@@ -7,16 +7,16 @@ class Movie extends Component{
   }
   render() {
     return(
-      <div>
-        <div >
+        <div className="img-fluid">
           <header>
-            <h1>{this.props.title}</h1>
-            <img src={this.props.imgUrl} className="img-fluid" />
+            <h2>{this.props.name}</h2>
+            <img src={this.props.imgUrl} alt="" />
             <p>{this.props.year}</p>
-            <p>{this.props.description}</p>
+            <p>{this.props.type}</p>
+            <p>{this.props.imdbID}</p>
           </header>
         </div>
-      </div>
+    
     )
   }
 }

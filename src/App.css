@@ -3,13 +3,19 @@
 }
 
 .img-fluid{
-  width: 80%;
-  height: 50%;
+  width: 25%;
 }
 
 .responsive{
   display: flex;
-  flex: flex-wrap;
+  flex-wrap: wrap;
+
+}
+
+.spin{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5px;
 }
 
 ul{
